@@ -32,7 +32,27 @@ p{
     font-size: 30px;
 }
 
-.hero{
+.heroone{
+    width: 100%;
+    height: 100vh;
+}
+
+.herotwo{
+    width: 100%;
+    height: 100vh;
+}
+
+.herothree{
+    width: 100%;
+    height: 100vh;
+}
+
+.herofour{
+    width: 100%;
+    height: 100vh;
+}
+
+.herofive{
     width: 100%;
     height: 100vh;
 }
@@ -64,7 +84,7 @@ button{
     height: 100vh;
 }
 
-.one .hero{
+.heroone{
     display: flex;
     flex-direction: column;
     gap: 550px;
@@ -93,7 +113,7 @@ button{
     display: flex;
 }
 
-.one h1{
+.bulb{
     color: rgb(41, 62, 41);
 }
 
@@ -117,4 +137,152 @@ button{
 
 .cry img{
     height: 40px;
+}
+
+.herotwo{
+    display: flex;
+}
+
+.herotwo .empty{
+    height: 100vh;
+    width: 50%;
+}
+
+.herotwo .twocontent{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    height: 100vh;
+    width: 50%;
+    backdrop-filter: blur(2px);
+}
+
+.twocontent{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    margin-right: 90px;
+    color: rgb(70, 136, 180);
+}
+
+.twocontent p{
+    margin-bottom: 4px;
+    display: flex;
+    align-items: flex-start;
+    width: fit-content;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.twocontent img{
+    height: 50px;
+    width: 50px;
+}
+
+.twobuttons{
+    margin-top: 120px;
+    margin-right: 40px;
+}
+
+.twobuttons button{
+    background-color: transparent;
+    color: rgb(70, 136, 180);
+    font-weight: bolder;
+}
+
+.three h1{
+    font-size: 80px;
+}
+
+.three .up{
+    padding: 30px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.paper img{
+    height: 90px;
+}
+
+.paper{
+    display: flex;
+}
+
+.ac h1{
+    color: rgb(63, 167, 186);
+}
+
+.nh h1{
+    color: rgb(82, 190, 82);
+}
+
+.acnhpic img{
+    margin-left: 40px;
+    border: solid 5px white;
+    height: 400px;
+}
+
+.acnhinfo h2{
+    padding-left: 510px;
+}
+
+.acnhinfo p{
+    font-size: 25px;
+    margin-left: 110px;
+    display: flex;
+    text-align: end;
+    justify-content: flex-start;
+}
+
+.acnhcp{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.seattle{
+    padding-top: 150px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seattlegallery{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tourist{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.tourist img{
+    height: 100px;
+    width: 100px;
+}
+
+.herofive{
+    display: flex;
+}
+
+.liyueinfo{
+    height: 100vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+.zhongli{
+    height: 100vh;
+    width: 70%;
+}
+
+.zhongli img{
+    height: 900px;
+    margin-right: 200px;
 }
