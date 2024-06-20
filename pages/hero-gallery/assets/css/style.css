@@ -151,7 +151,7 @@ button{
 .herotwo .twocontent{
     margin-top: 100px;
     margin-bottom: 40px;
-    height: 100vh;
+    height: fit-content;
     width: 50%;
     backdrop-filter: blur(2px);
 }
@@ -169,6 +169,7 @@ button{
     display: flex;
     align-items: flex-start;
     width: fit-content;
+    height: fit-content;
     background-color: rgba(255, 255, 255, 0.9);
 }
 
@@ -186,6 +187,7 @@ button{
     background-color: transparent;
     color: rgb(70, 136, 180);
     font-weight: bolder;
+    text-decoration: underline 2px solid white;
 }
 
 .three h1{
@@ -242,10 +244,18 @@ button{
 
 .seattle{
     padding-top: 150px;
-    margin-bottom: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.seattle h1{
+    font-size: 120px;
+    color: rgb(16, 60, 85);
+}
+
+.nickname{
+    backdrop-filter: blur(2px);
 }
 
 .seattlegallery{
@@ -255,31 +265,52 @@ button{
 }
 
 .tourist{
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+}
+
+.tourist p{
+    font-weight: bold;
+    text-align: center;
 }
 
 .tourist img{
-    height: 100px;
-    width: 100px;
+    height: 300px;
+}
+
+.sights{
+    margin-top: 150px;
 }
 
 .herofive{
     display: flex;
+
 }
 
 .liyueinfo{
     height: 100vh;
-    width: 30%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     padding-top: 50px;
-    padding-left: 200px;
+    margin-right: 100px;
+    text-align: end;
+}
+
+.liyueinfo h1{
+    font-size: 100px;
+    text-decoration: underline solid 5px rgb(148, 127, 58);
+}
+
+.liyueinfo p{
+    font-size: 20px;
+    backdrop-filter: blur(2px);
 }
 
 .zhongli{
     height: 100vh;
-    width: 70%;
+    width: 50%;
 }
 
 .zhongli img{
