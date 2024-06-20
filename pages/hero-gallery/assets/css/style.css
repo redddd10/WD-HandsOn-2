@@ -37,6 +37,7 @@ p{
     height: 100vh;
 }
 
+
 .herotwo{
     width: 100%;
     height: 100vh;
@@ -83,6 +84,8 @@ button{
     width: 100%;
     height: 100vh;
 }
+
+/*START OF FIRST DESIGN*/
 
 .heroone{
     display: flex;
@@ -134,10 +137,28 @@ button{
     color: white;
 }
 
-
 .cry img{
     height: 40px;
 }
+
+.grasstype:hover{
+    transform: scale(1.3);
+}
+
+.typegrass:hover{
+    color: rgb(41, 62, 41);
+    font-weight: bolder;
+}
+
+.bulba{
+    color: rgb(41, 62, 41);
+}
+
+.bulba:hover{
+    transform: scale(1.5);
+}
+
+/*START OF SECOND DESIGN*/
 
 .herotwo{
     display: flex;
@@ -190,6 +211,35 @@ button{
     text-decoration: underline 2px solid white;
 }
 
+.peace:hover{
+    transform: translate(-30px, 0);
+    text-decoration: underline 4px dashed white;
+}
+
+.information:hover{
+    cursor: crosshair;
+    transform: scale(1.1);
+}
+
+.now:hover{
+    cursor: grab;
+}
+
+/*START OF THIRD DESIGN*/
+
+.bg{
+    position: absolute;
+    object-fit: fill;
+    z-index: -1;
+    overflow-y: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+.bga:hover{
+    border: dashed 20px rgb(63, 167, 186);
+}
+
 .three h1{
     font-size: 80px;
 }
@@ -218,6 +268,22 @@ button{
     color: rgb(82, 190, 82);
 }
 
+.aca h1{
+    color: rgb(63, 167, 186);
+}
+
+.nha h1{
+    color: rgb(82, 190, 82);
+}
+
+.aca h1:hover{
+    color: rgb(82, 190, 82);
+}
+
+.nha h1:hover{
+    color: rgb(63, 167, 186);
+}
+
 .acnhpic img{
     margin-left: 40px;
     border: solid 5px white;
@@ -241,6 +307,8 @@ button{
     justify-content: flex-end;
     margin-right: 50px;
 }
+
+/*START OF FOURTH DESIGN*/
 
 .seattle{
     padding-top: 150px;
@@ -282,6 +350,31 @@ button{
     margin-top: 150px;
 }
 
+.tourista{
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+}
+
+.tourista p{
+    font-weight: bold;
+    text-align: center;
+}
+
+.tourista img{
+    height: 300px;
+}
+
+.tourista:hover{
+    transform: rotateY(30deg);
+}
+
+.cityname:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10%;
+}
+
+/*START OF FIFTH DESIGN*/
+
 .herofive{
     display: flex;
 
@@ -299,13 +392,13 @@ button{
 }
 
 .liyueinfo h1{
-    font-size: 100px;
+    font-size: 120px;
     text-decoration: underline solid 5px rgb(148, 127, 58);
 }
 
 .liyueinfo p{
-    font-size: 20px;
-    backdrop-filter: blur(2px);
+    font-size: 30px;
+    backdrop-filter: blur(5px);
 }
 
 .zhongli{
@@ -316,4 +409,46 @@ button{
 .zhongli img{
     height: 900px;
     margin-right: 200px;
+}
+
+.splash:hover{
+    transform: scale(1.2);
+    backdrop-filter: blur(5px);
+}
+
+.liyueinfoanim{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 50px;
+    margin-right: 100px;
+    text-align: end;
+}
+
+.liyueinfoanim h1{
+    font-size: 120px;
+    text-decoration: underline solid 5px rgb(148, 127, 58);
+}
+
+.liyueinfoanim p{
+    font-size: 30px;
+    backdrop-filter: blur(5px);
+}
+
+.liyueinfoanim h1:hover{
+    transform: translate(-20px, 0);
+}
+
+.liyueinfoanim h2:hover{
+    transform: translate(-20px, 0);
+}
+
+.liyueinfoanim p:hover{
+    transform: translate(-20px, 0);
+}
+
+.liyueinfoanim img:hover{
+    filter: grayscale(100%);
 }
