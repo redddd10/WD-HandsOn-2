@@ -260,10 +260,14 @@ button{
 
 .three .up{
     padding: 30px;
-    height: 200px;
+    height: 20vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.three .down{
+    height: 80vh;
 }
 
 .paper img{
@@ -299,9 +303,9 @@ button{
 }
 
 .acnhpic img{
-    margin-left: 40px;
+    margin-left: 200px;
     border: solid 5px white;
-    height: 400px;
+    height: 300px;
 }
 
 .acnhinfo h2{
