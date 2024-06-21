@@ -303,9 +303,9 @@ button{
 }
 
 .acnhpic img{
-    margin-left: 200px;
+    margin-left: 300px;
     border: solid 5px white;
-    height: 200px;
+    height: 300px;
 }
 
 .acnhinfo h2{
@@ -314,7 +314,7 @@ button{
 }
 .acnhinfo p{
     font-size: 20px;
-    margin-left: 110px;
+    margin-left: 185px;
     display: flex;
     text-align: end;
     justify-content: flex-start;
