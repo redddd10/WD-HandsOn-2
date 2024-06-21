@@ -305,14 +305,15 @@ button{
 .acnhpic img{
     margin-left: 200px;
     border: solid 5px white;
-    height: 300px;
+    height: 200px;
 }
 
 .acnhinfo h2{
+    font-size: 40px;
     padding-left: 510px;
 }
 .acnhinfo p{
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 110px;
     display: flex;
     text-align: end;
@@ -385,10 +386,6 @@ button{
     transform: rotateY(30deg);
 }
 
-.cityname:hover{
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 10%;
-}
 
 /*START OF FIFTH DESIGN*/
 
