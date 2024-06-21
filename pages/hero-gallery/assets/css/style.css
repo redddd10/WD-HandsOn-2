@@ -310,7 +310,7 @@ button{
 
 .acnhinfo h2{
     font-size: 40px;
-    padding-left: 310px;
+    margin-left: 460px;
 }
 .acnhinfo p{
     font-size: 20px;
@@ -458,12 +458,12 @@ button{
 }
 
 .liyueinfoanim h1{
-    font-size: 120px;
+    font-size: 100px;
     text-decoration: underline solid 5px rgb(148, 127, 58);
 }
 
 .liyueinfoanim p{
-    font-size: 30px;
+    font-size: 20px;
     backdrop-filter: blur(5px);
 }
 
