@@ -399,10 +399,20 @@ button{
 
 .herofive{
     display: flex;
-
 }
 
 .liyueinfo{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 50px;
+    margin-right: 100px;
+    text-align: end;
+}
+
+.liyueinfoanim{
     height: 100vh;
     width: 50%;
     display: flex;
@@ -426,7 +436,17 @@ button{
     text-decoration: underline solid 5px rgb(148, 127, 58);
 }
 
+.liyueinfoanim h1{
+    font-size: 100px;
+    text-decoration: underline solid 5px rgb(148, 127, 58);
+}
+
 .liyueinfo p{
+    font-size: 20px;
+    backdrop-filter: blur(5px);
+}
+
+.liyueinfoanim p{
     font-size: 20px;
     backdrop-filter: blur(5px);
 }
@@ -443,27 +463,6 @@ button{
 
 .splash:hover{
     transform: scale(1.2);
-    backdrop-filter: blur(5px);
-}
-
-.liyueinfoanim{
-    height: 100vh;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding-top: 50px;
-    margin-right: 100px;
-    text-align: end;
-}
-
-.liyueinfoanim h1{
-    font-size: 100px;
-    text-decoration: underline solid 5px rgb(148, 127, 58);
-}
-
-.liyueinfoanim p{
-    font-size: 20px;
     backdrop-filter: blur(5px);
 }
 
