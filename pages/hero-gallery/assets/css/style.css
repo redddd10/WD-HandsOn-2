@@ -74,6 +74,21 @@ button{
     font-weight: 300;
     height: 10vh;
     border: none;
+    background-color: rgb(104, 171, 215);
+}
+
+.header button:hover{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+}
+
+
+.header h2{
+    background-color: rgb(104, 171, 215);
+    height: 10vh;
+    display: flex;
+    align-items: center;
 }
 
 .bg{
@@ -293,7 +308,6 @@ button{
 .acnhinfo h2{
     padding-left: 510px;
 }
-
 .acnhinfo p{
     font-size: 25px;
     margin-left: 110px;

@@ -31,8 +31,14 @@ button{
     font-size: 40px;
     font-family: "Josefin Sans", sans-serif;
     font-weight: 300;
-    height: 10vh;
+    height: 9.5vh;
     border: none;
+}
+
+button:hover{
+    background-color: black;
+    font-weight: bold;
+    color: white;
 }
 
 .header{
@@ -42,7 +48,15 @@ button{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-bottom: solid 5px black;
     background-color: rgb(70, 136, 180);
+}
+
+.header h2{
+    background-color: white;
+    height: 9.5vh;
+    display: flex;
+    align-items: center;
 }
 
 body {
@@ -90,7 +104,7 @@ body {
     border: 10px double rgb(70, 136, 180);
     padding: 10px;
     display: flex;
-    flex-direction: columnSS;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -100,6 +114,10 @@ body {
     height: 600px;
     border: 10px double rgb(70, 136, 180);
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .one h2{
@@ -219,15 +237,20 @@ body {
 }
 
 .four h1{
-    font-size: 45px;
+    font-size: 60px;
+    text-align: center;
 }
 
 .four h2{
     font-size: 30px;
+    text-align: center;
+    border-bottom: solid 2px white;
 }
 
 .four p{
     font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 
@@ -266,4 +289,42 @@ body {
 
 .amount h2{
     font-weight: bold;
+}
+
+.greenbulba:hover{
+    color: rgb(89, 208, 111);
+}
+
+.zhongpic:hover{
+    backdrop-filter: blur(2px);
+    transform: scale(1.2);
+}
+
+.username:hover{
+    color: white;
+    cursor: grab;
+}
+
+.actions:hover{
+    background-color: rgb(70, 136, 180);
+}
+
+.maintitle:hover{
+    transform: translate(10px);
+}
+
+.secondtitle:hover{
+    transform: translate(0, 10px);
+}
+
+.textrandom:hover{
+    text-decoration: underline 2px solid white;
+}
+
+.rowletmoving:hover{
+    rotate: 30deg;
+}
+
+.cost:hover{
+    cursor: help;
 }
