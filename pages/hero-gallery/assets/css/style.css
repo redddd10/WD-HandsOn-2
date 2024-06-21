@@ -305,16 +305,16 @@ button{
 .acnhpic img{
     margin-left: 200px;
     border: solid 5px white;
-    height: 50vh;
+    height: 45vh;
 }
 
 .acnhinfo h2{
     font-size: 40px;
-    padding-left: 510px;
+    padding-left: 410px;
 }
 .acnhinfo p{
     font-size: 20px;
-    margin-left: 210px;
+    margin-left: 310px;
     display: flex;
     text-align: end;
     justify-content: flex-start;
@@ -328,11 +328,20 @@ button{
 
 /*START OF FOURTH DESIGN*/
 
+.herofour{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
 .seattle{
     padding-top: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 50vh;
 }
 
 .seattle h1{
@@ -348,6 +357,7 @@ button{
     display: flex;
     justify-content: center;
     gap: 20px;
+    height: 50vh;
 }
 
 .tourist{
