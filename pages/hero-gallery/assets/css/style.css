@@ -314,7 +314,7 @@ button{
 }
 .acnhinfo p{
     font-size: 20px;
-    margin-left: 210px;
+    margin-left: 260px;
     display: flex;
     text-align: end;
     justify-content: flex-start;
@@ -387,7 +387,7 @@ button{
 }
 
 .tourista img{
-    height: 30vh;
+    height: 40vh;
 }
 
 .tourista:hover{
@@ -411,6 +411,14 @@ button{
     padding-top: 50px;
     margin-right: 100px;
     text-align: end;
+}
+
+.liyueinfo img{
+    height: 40vh;
+}
+
+.liyueinfoanim img{
+    height: 40vh;
 }
 
 .liyueinfo h1{
