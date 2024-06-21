@@ -345,7 +345,7 @@ button{
 }
 
 .seattle h1{
-    font-size: 90px;
+    font-size: 10vh;
     color: rgb(16, 60, 85);
     display: flex;
     justify-content: center;
@@ -429,7 +429,7 @@ button{
 }
 
 .zhongli img{
-    height: 700px;
+    height: 100vh;
     margin-right: 200px;
 }
 
