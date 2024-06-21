@@ -110,10 +110,47 @@ body {
 .bulbapic{
     height: 500px;
     width: 700px;
-    background-color: rgb(70, 136, 180);
+    background-color: black;
 }
 
 .bulba{
     height: 394px;
 }
 
+.twomain{
+    width: max;
+    height: max;
+    display: flex;
+    background-color: rgb(128, 117, 64);
+}
+
+.left{
+    width: 50%;
+    height: max;
+}
+
+.right{
+    width: 50%;
+    height: max;
+    border-left: double 5px white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(169, 135, 61);
+}
+
+.left img{
+    height: 400px;
+}
+
+.right p{
+    margin-top: 13px;
+    font-size: 27px;
+}
+
+.right h2{
+    margin-top: 30px;
+    font-size: 70px;
+    font-weight: bolder;
+}
